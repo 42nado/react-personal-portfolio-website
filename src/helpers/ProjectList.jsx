@@ -9,7 +9,8 @@ export const ProjectList = [
   {
     name: "Portfolio Website",
     image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    skills: "React.js, JavaScript, HTML, CSS",
+    link: "https://github.com/42nado/react-personal-portfolio-website",
 
   },
   {
