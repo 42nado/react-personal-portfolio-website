@@ -7,7 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from "@material-ui/icons/School";
 import WorkIcon from "@material-ui/icons/Work";
 
-function Experience() {
+const Experience = () => {
   return (
     <div className="experience">
       <VerticalTimeline lineColor="#3e497a">

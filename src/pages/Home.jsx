@@ -4,7 +4,7 @@ import EmailIcon from "@material-ui/icons/Email";
 import GithubIcon from "@material-ui/icons/GitHub";
 import "../styles/Home.css";
 
-function Home() {
+const Home = () => {
   return (
     <div className="home">
       <div className="about">
