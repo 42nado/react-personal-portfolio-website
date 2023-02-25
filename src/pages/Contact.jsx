@@ -25,7 +25,7 @@ const Contact = () => {
   };
   return (
     <form ref={form} onSubmit={sendEmail}>     
-        <input name="subject" type="text" class="feedback-input" placeholder="subject" required/>  
+        <input name="subject" type="text" class="feedback-input" placeholder="Subject" required/>  
         <input name="name" type="text" class="feedback-input" placeholder="Name" required/>   
         <input name="email" type="text" class="feedback-input" placeholder="Email"  required/>
         <textarea name="message" class="feedback-input" placeholder="Comment" required ></textarea>
