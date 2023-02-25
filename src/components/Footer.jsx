@@ -5,7 +5,7 @@ import FacebookIcon from "@material-ui/icons/Facebook";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import "../styles/Footer.css";
 
-function Footer() {
+const Footer = () => {
   return (
     <div className="footer">
       <div className="socialMedia">

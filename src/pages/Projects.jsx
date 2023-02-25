@@ -4,7 +4,7 @@ import { ProjectList } from "../helpers/ProjectList";
 
 import "../styles/Projects.css";
 
-function Projects() {
+const Projects = () => {
   return (
     <div className="projects">
       <h1> My Personal Projects</h1>
