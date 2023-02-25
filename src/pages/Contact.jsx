@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import '../styles/Contact.css';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 
 const Contact = () => {
     const form = useRef();
@@ -10,8 +11,13 @@ const Contact = () => {
 
     emailjs.sendForm('service_1orcuvn', 'template_hwemm2z', form.current, 'nufWVpy63w_2mRZyk')
       .then((result) => {
-          console.log(result.text);
           console.log("Email sent successfully");
+          console.log(result.text);
+          // alert("Email sent successfully");
+          Swal.fire(
+            'Email Sent Successfully!',
+            'success'
+          )
       }, (error) => {
           console.log(error.text);
       });
