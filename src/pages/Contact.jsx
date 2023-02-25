@@ -16,6 +16,7 @@ const Contact = () => {
           // alert("Email sent successfully");
           Swal.fire(
             'Email Sent Successfully!',
+            '',
             'success'
           )
       }, (error) => {
