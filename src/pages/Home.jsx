@@ -22,7 +22,7 @@ const Home = () => {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              HTML, CSS, BootStrap, ReactJS
+              HTML, CSS, BootStrap, Vue.js, Quasar 
             </span>
           </li>
           <li className="item">
