@@ -10,9 +10,9 @@ const Home = () => {
       <div className="about">
         <h2> Hi, My Name is Daryll</h2>
         <div className="prompt">
-          <p>Aspiring Web developer with a passion for learning and creating.</p>
+          <p>Web developer with a passion for learning and creating.</p>
           <a href="https://www.linkedin.com/in/daryllanthonyfortunado/" target="__blank" ><LinkedInIcon /></a>
-          <a href ="mailto: daryllfortunado@gmail.com"><EmailIcon /></a>
+          <a href="mailto: daryllfortunado@gmail.com"><EmailIcon /></a>
           <a href="https://github.com/42nado" target="__blank"><GithubIcon /></a>
         </div>
       </div>
@@ -22,18 +22,18 @@ const Home = () => {
           <li className="item">
             <h2> Front-End</h2>
             <span>
-              HTML, CSS, BootStrap, Vue.js, Quasar 
+              HTML, CSS, JavaScript, BootStrap, Vue.js, Quasar, Livewire
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS,MySQL, MongoDB
+              NodeJS, ExpressJS, MySQL, MongoDB, PHP, Laravel
             </span>
           </li>
           <li className="item">
-            <h2>Languages</h2>
-            <span>C, C++, JavaScript, PHP, Visual Basic</span>
+            <h2>Other Languages</h2>
+            <span>C, C++, Visual Basic</span>
           </li>
         </ol>
       </div>
