@@ -28,3 +28,22 @@
   font-size: 60px;
   color: #3e497a;
 }
+
+.link {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link a {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.visit {
+  background-color: #3e497a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
