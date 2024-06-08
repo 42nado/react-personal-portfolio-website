@@ -4,6 +4,7 @@ import Proj3 from "../assets/proj3.jpg";
 import proj4 from "../assets/proj4.png";
 import proj5 from "../assets/proj5.png";
 import Proj7 from "../assets/proj7.png";
+import proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
@@ -19,13 +20,14 @@ export const ProjectList = [
     image: Proj2,
     skills: "Bootstrap, Ejs, Node.js, Express.js, MongoDB",
     link: "https://github.com/42nado/RoomListing",
-    site: "https://wind-bnb-fuf7.onrender.com/home",
+    site: "",
   },
   {
     name: "Movie Booking",
     image: Proj3,
     skills: "Visual Basic, Microsoft Access",
     link: "https://github.com/42nado/MOVIEBOOKING-Visual-Basic",
+    site: "",
   },
   {
     name: "QR code component using css",
@@ -40,5 +42,12 @@ export const ProjectList = [
     skills: "HTML, CSS",
     link: "https://github.com/42nado/Product-preview-card-component",
     site: "https://lovely-naiad-3bdad3.netlify.app/",
+  },
+  {
+    name: "Sari-Sari Store",
+    image: proj6,
+    skills: "HTML, CSS, JavaScript, Livewire, Laravel, MySQL, Bootstrap",
+    link: "",
+    site: "https://store.spoonandrice.com/"
   }
 ];
