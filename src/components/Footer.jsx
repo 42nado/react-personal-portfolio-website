@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://www.facebook.com/daryllanthony.fortunado/" target="_blank" rel="noopener noreferrer"><FacebookIcon /></a>
         <a href="https://www.linkedin.com/in/daryllanthonyfortunado/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a>
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      <p> &copy; 2022 daryllfortunado</p>
     </div>
   );
 }
