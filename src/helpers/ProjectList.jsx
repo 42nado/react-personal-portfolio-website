@@ -16,6 +16,21 @@ export const ProjectList = [
 
   },
   {
+    name: "Sari-Sari Store",
+    image: proj6,
+    skills: "HTML, CSS, JavaScript, Livewire, Laravel, MySQL, Bootstrap",
+    link: "",
+    site: "https://store.spoonandrice.com/"
+  },
+  {
+    name: "City Wide Barangay Information System",
+    image: Proj1,
+    skills: "PHP, MySQL, Bootstrap, JavaScript, HTML, CSS",
+    link: "",
+    site: "",
+
+  },
+  {
     name: "Vacation Place Finder",
     image: Proj2,
     skills: "Bootstrap, Ejs, Node.js, Express.js, MongoDB",
@@ -43,11 +58,5 @@ export const ProjectList = [
     link: "https://github.com/42nado/Product-preview-card-component",
     site: "https://lovely-naiad-3bdad3.netlify.app/",
   },
-  {
-    name: "Sari-Sari Store",
-    image: proj6,
-    skills: "HTML, CSS, JavaScript, Livewire, Laravel, MySQL, Bootstrap",
-    link: "",
-    site: "https://store.spoonandrice.com/"
-  }
+
 ];
