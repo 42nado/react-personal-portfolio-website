@@ -1,4 +1,4 @@
-import Proj1 from "../assets/proj1.jpg";
+import Proj1 from "../assets/proj1.png";
 import Proj2 from "../assets/proj2.png";
 import Proj3 from "../assets/proj3.jpg";
 import proj4 from "../assets/proj4.png";
@@ -8,11 +8,12 @@ import proj6 from "../assets/proj6.png";
 
 export const ProjectList = [
   {
-    name: "Portfolio Website",
-    image: Proj7,
-    skills: "React.js, JavaScript, HTML, CSS",
-    link: "https://github.com/42nado/react-personal-portfolio-website",
-    site: "https://daryllfortunado.onrender.com/",
+    name: "City Wide Barangay Information System",
+    image: Proj1,
+    skills: "PHP, MySQL, Bootstrap, JavaScript, HTML, CSS",
+    link: "",
+    site: "",
+    description: "City-wide Barangay ManagementInformation System to provide platform to the Manila Barangay Bureau in assignment of task and announcement to the barangay and help the individual barangays in their operations and functions"
 
   },
   {
@@ -23,11 +24,11 @@ export const ProjectList = [
     site: "https://store.spoonandrice.com/"
   },
   {
-    name: "City Wide Barangay Information System",
-    image: Proj1,
-    skills: "PHP, MySQL, Bootstrap, JavaScript, HTML, CSS",
-    link: "",
-    site: "",
+    name: "Portfolio Website",
+    image: Proj7,
+    skills: "React.js, JavaScript, HTML, CSS",
+    link: "https://github.com/42nado/react-personal-portfolio-website",
+    site: "https://daryllfortunado.onrender.com/",
 
   },
   {
