@@ -15,8 +15,11 @@ const ProjectDisplay = () => {
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <a href={project.link} target="__blank" ><GitHubIcon /></a>
-      <a href={project.site} target="__blank"><VisibilityIcon /></a>
+      <div className="link">
+        {project.link !== "" && <a href={project.link} target="__blank" ><GitHubIcon /></a>}
+        {project.site !== "" && <a className="visit" href={project.site} target="__blank">Visit</a>}
+      </div>
+
     </div>
   );
 }
