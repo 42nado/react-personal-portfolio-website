@@ -61,10 +61,10 @@
 @media only screen and (min-width: 800px) {
   .projectList {
     width: 100%;
+    
     grid-template-columns: 1fr 1fr;
   }
   .projectItem {
-    width: 300px;
     height: auto;
   }
 }
@@ -80,6 +80,6 @@
 @media only screen and (min-width: 1300px) {
     .projectList {
         justify-content: center;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
