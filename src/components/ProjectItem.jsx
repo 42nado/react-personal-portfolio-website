@@ -1,7 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+// import "../styles/ProjectItem.css";
 
-const ProjectItem = ({ image, name, id,skills }) => {
+const ProjectItem = ({ image, name, id, skills }) => {
   const navigate = useNavigate();
   return (
     <div
