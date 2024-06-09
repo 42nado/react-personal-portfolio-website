@@ -11,10 +11,12 @@ const ProjectDisplay = () => {
   return (
     <div className="project">
       <h1> {project.name}</h1>
-      <img src={project.image} />
-      <p>
-        <b>Skills:</b> {project.skills}
-      </p>
+      <img src={project.image} alt="project" />
+      <div className="skills">
+        <p>
+          <b>Skills:</b> {project.skills}
+        </p>
+      </div>
       <div className="link">
         {project.link !== "" && <a href={project.link} target="__blank" ><GitHubIcon /></a>}
         {project.site !== "" && <a className="visit" href={project.site} target="__blank">Visit</a>}
