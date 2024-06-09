@@ -1,0 +1,16 @@
+.projectItem{
+    border-radius: 15px;
+    width: 400px;
+    height: auto;
+    margin: 40px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+@media screen and (max-width: 480px){
+    .projectItem{
+        width: 250px;
+        height: auto;
+    }
+    
+}
