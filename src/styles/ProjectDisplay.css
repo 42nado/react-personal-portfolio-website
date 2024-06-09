@@ -1,7 +1,7 @@
 .project {
   padding-top: 100px;
   width: 100%;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,9 +12,10 @@
   margin-top: 50px;
   color: #3e497a;
   font-size: 35px;
+  text-align: center;
 }
 .project img {
-  width: 700px;
+  width: 500px;
   height: 450px;
   border-radius: 10px;
 }
@@ -46,4 +47,63 @@
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .project img {
+    width: 200px;
+    height: 100px;
+  }
+  .project p {
+    font-size: 30px;
+  }
+  .project h1 {
+    font-size: 100px;
+  }
+  .link a {
+    font-size: 15px;
+  }
+  
+}
+
+@media screen and (min-width: 480px){
+  .project img {
+    width: 500px;
+    height: 400px;
+  }
+  .project p {
+    font-size: 20px;
+  }
+  .project h1 {
+    font-size: 35px;
+  }
+  .link a {
+    font-size: 12px;
+  }
+  
+}
+
+@media screen and (max-width: 480px) {
+  .skill {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .project img {
+    width: 200px;
+    height: 150px;
+  }
+  .project p {
+    font-size: 15px;
+  }
+  .project h1 {
+    font-size: 25px;
+  }
+  .link a {
+    font-size: 10px;
+  }
+  
+  
 }
