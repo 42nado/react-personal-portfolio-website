@@ -12,7 +12,7 @@ export const ProjectList = [
     image: Proj1,
     skills: "PHP, MySQL, Bootstrap, JavaScript, HTML, CSS",
     link: "",
-    site: "",
+    site: "http://manilabarangaybureau.free.nf/",
     description: "City-wide Barangay ManagementInformation System to provide platform to the Manila Barangay Bureau in assignment of task and announcement to the barangay and help the individual barangays in their operations and functions"
 
   },
