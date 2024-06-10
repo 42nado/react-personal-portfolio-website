@@ -61,7 +61,7 @@
 @media only screen and (min-width: 800px) {
   .projectList {
     width: 100%;
-    
+
     grid-template-columns: 1fr 1fr;
   }
   .projectItem {
@@ -81,5 +81,6 @@
     .projectList {
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 10vw;
     }
 }
