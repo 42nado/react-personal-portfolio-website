@@ -5,6 +5,7 @@ import proj4 from "../assets/proj4.png";
 import proj5 from "../assets/proj5.png";
 import Proj7 from "../assets/proj7.png";
 import proj6 from "../assets/proj6.png";
+import proj10 from "../assets/proj10.png";
 
 export const ProjectList = [
   {
@@ -22,6 +23,13 @@ export const ProjectList = [
     skills: "HTML, CSS, JavaScript, Livewire, Laravel, MySQL, Bootstrap",
     link: "",
     site: "https://store.spoonandrice.com/"
+  },
+  {
+    name: "Spoon and Rice",
+    image: proj10,
+    skills: "HTML, CSS, JavaScript, Livewire, Laravel, Filament, MySQL, Bootstrap",
+    link: "",
+    site: "https://spoonandrice.com/"
   },
   {
     name: "Portfolio Website",
